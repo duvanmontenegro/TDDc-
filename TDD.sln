@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E264F68D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraTest", "..\Calculadora\CalculadoraTest.csproj", "{C48698BB-FE15-4CC2-A3E6-EACF7B099156}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaString", "..\RestaString\RestaString.csproj", "{2A7A3FAF-8926-488C-9606-15F3D9DEB3A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{C48698BB-FE15-4CC2-A3E6-EACF7B099156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48698BB-FE15-4CC2-A3E6-EACF7B099156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48698BB-FE15-4CC2-A3E6-EACF7B099156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7A3FAF-8926-488C-9606-15F3D9DEB3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7A3FAF-8926-488C-9606-15F3D9DEB3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7A3FAF-8926-488C-9606-15F3D9DEB3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7A3FAF-8926-488C-9606-15F3D9DEB3A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C48698BB-FE15-4CC2-A3E6-EACF7B099156} = {E264F68D-C56E-416B-B443-1A6F8787AF5F}
+		{2A7A3FAF-8926-488C-9606-15F3D9DEB3A2} = {E264F68D-C56E-416B-B443-1A6F8787AF5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34DC0884-DA65-4D47-B6EC-B77C0D94471D}

@@ -4,7 +4,15 @@ using System.Text;
 
 namespace TDD
 {
-    class Resta
+    public class Resta
     {
+        public object Operar(string num)
+        {
+            if (num.Equals(""))
+                return 0;
+            if (string.IsNullOrEmpty(num))
+                throw new NotImplementedException();
+            return num;
+        }
     }
 }
